@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F89E601D22602014007D83BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E601C22602014007D83BE /* AppDelegate.swift */; };
+		F89E601F22602014007D83BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E601E22602014007D83BE /* ViewController.swift */; };
+		F89E602222602014007D83BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89E602022602014007D83BE /* Main.storyboard */; };
+		F89E602422602016007D83BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89E602322602016007D83BE /* Assets.xcassets */; };
+		F89E602722602016007D83BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89E602522602016007D83BE /* LaunchScreen.storyboard */; };
+		F89E603222602016007D83BE /* Georgie2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E603122602016007D83BE /* Georgie2Tests.swift */; };
+		F89E603D22602016007D83BE /* Georgie2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E603C22602016007D83BE /* Georgie2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F89E602E22602016007D83BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89E601122602014007D83BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89E601822602014007D83BE;
+			remoteInfo = Georgie2;
+		};
+		F89E603922602016007D83BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89E601122602014007D83BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89E601822602014007D83BE;
+			remoteInfo = Georgie2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F89E601922602014007D83BE /* Georgie2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Georgie2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89E601C22602014007D83BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F89E601E22602014007D83BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F89E602122602014007D83BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89E602322602016007D83BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89E602622602016007D83BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F89E602822602016007D83BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89E602D22602016007D83BE /* Georgie2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Georgie2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89E603122602016007D83BE /* Georgie2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Georgie2Tests.swift; sourceTree = "<group>"; };
+		F89E603322602016007D83BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89E603822602016007D83BE /* Georgie2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Georgie2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89E603C22602016007D83BE /* Georgie2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Georgie2UITests.swift; sourceTree = "<group>"; };
+		F89E603E22602016007D83BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89E601622602014007D83BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E602A22602016007D83BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E603522602016007D83BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F89E601022602014007D83BE = {
+			isa = PBXGroup;
+			children = (
+				F89E601B22602014007D83BE /* Georgie2 */,
+				F89E603022602016007D83BE /* Georgie2Tests */,
+				F89E603B22602016007D83BE /* Georgie2UITests */,
+				F89E601A22602014007D83BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89E601A22602014007D83BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89E601922602014007D83BE /* Georgie2.app */,
+				F89E602D22602016007D83BE /* Georgie2Tests.xctest */,
+				F89E603822602016007D83BE /* Georgie2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89E601B22602014007D83BE /* Georgie2 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E601C22602014007D83BE /* AppDelegate.swift */,
+				F89E601E22602014007D83BE /* ViewController.swift */,
+				F89E602022602014007D83BE /* Main.storyboard */,
+				F89E602322602016007D83BE /* Assets.xcassets */,
+				F89E602522602016007D83BE /* LaunchScreen.storyboard */,
+				F89E602822602016007D83BE /* Info.plist */,
+			);
+			path = Georgie2;
+			sourceTree = "<group>";
+		};
+		F89E603022602016007D83BE /* Georgie2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F89E603122602016007D83BE /* Georgie2Tests.swift */,
+				F89E603322602016007D83BE /* Info.plist */,
+			);
+			path = Georgie2Tests;
+			sourceTree = "<group>";
+		};
+		F89E603B22602016007D83BE /* Georgie2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F89E603C22602016007D83BE /* Georgie2UITests.swift */,
+				F89E603E22602016007D83BE /* Info.plist */,
+			);
+			path = Georgie2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89E601822602014007D83BE /* Georgie2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89E604122602016007D83BE /* Build configuration list for PBXNativeTarget "Georgie2" */;
+			buildPhases = (
+				F89E601522602014007D83BE /* Sources */,
+				F89E601622602014007D83BE /* Frameworks */,
+				F89E601722602014007D83BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Georgie2;
+			productName = Georgie2;
+			productReference = F89E601922602014007D83BE /* Georgie2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F89E602C22602016007D83BE /* Georgie2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89E604422602016007D83BE /* Build configuration list for PBXNativeTarget "Georgie2Tests" */;
+			buildPhases = (
+				F89E602922602016007D83BE /* Sources */,
+				F89E602A22602016007D83BE /* Frameworks */,
+				F89E602B22602016007D83BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89E602F22602016007D83BE /* PBXTargetDependency */,
+			);
+			name = Georgie2Tests;
+			productName = Georgie2Tests;
+			productReference = F89E602D22602016007D83BE /* Georgie2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F89E603722602016007D83BE /* Georgie2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89E604722602016007D83BE /* Build configuration list for PBXNativeTarget "Georgie2UITests" */;
+			buildPhases = (
+				F89E603422602016007D83BE /* Sources */,
+				F89E603522602016007D83BE /* Frameworks */,
+				F89E603622602016007D83BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89E603A22602016007D83BE /* PBXTargetDependency */,
+			);
+			name = Georgie2UITests;
+			productName = Georgie2UITests;
+			productReference = F89E603822602016007D83BE /* Georgie2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89E601122602014007D83BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Travis Allen";
+				TargetAttributes = {
+					F89E601822602014007D83BE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F89E602C22602016007D83BE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F89E601822602014007D83BE;
+					};
+					F89E603722602016007D83BE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F89E601822602014007D83BE;
+					};
+				};
+			};
+			buildConfigurationList = F89E601422602014007D83BE /* Build configuration list for PBXProject "Georgie2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F89E601022602014007D83BE;
+			productRefGroup = F89E601A22602014007D83BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89E601822602014007D83BE /* Georgie2 */,
+				F89E602C22602016007D83BE /* Georgie2Tests */,
+				F89E603722602016007D83BE /* Georgie2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89E601722602014007D83BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E602722602016007D83BE /* LaunchScreen.storyboard in Resources */,
+				F89E602422602016007D83BE /* Assets.xcassets in Resources */,
+				F89E602222602014007D83BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E602B22602016007D83BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E603622602016007D83BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89E601522602014007D83BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E601F22602014007D83BE /* ViewController.swift in Sources */,
+				F89E601D22602014007D83BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E602922602016007D83BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E603222602016007D83BE /* Georgie2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E603422602016007D83BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E603D22602016007D83BE /* Georgie2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F89E602F22602016007D83BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89E601822602014007D83BE /* Georgie2 */;
+			targetProxy = F89E602E22602016007D83BE /* PBXContainerItemProxy */;
+		};
+		F89E603A22602016007D83BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89E601822602014007D83BE /* Georgie2 */;
+			targetProxy = F89E603922602016007D83BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F89E602022602014007D83BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89E602122602014007D83BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89E602522602016007D83BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89E602622602016007D83BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89E603F22602016007D83BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F89E604022602016007D83BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89E604222602016007D83BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEH288UCB4;
+				INFOPLIST_FILE = Georgie2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CornellTech.Georgie2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F89E604322602016007D83BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEH288UCB4;
+				INFOPLIST_FILE = Georgie2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CornellTech.Georgie2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F89E604522602016007D83BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEH288UCB4;
+				INFOPLIST_FILE = Georgie2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CornellTech.Georgie2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Georgie2.app/Georgie2";
+			};
+			name = Debug;
+		};
+		F89E604622602016007D83BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEH288UCB4;
+				INFOPLIST_FILE = Georgie2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CornellTech.Georgie2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Georgie2.app/Georgie2";
+			};
+			name = Release;
+		};
+		F89E604822602016007D83BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEH288UCB4;
+				INFOPLIST_FILE = Georgie2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CornellTech.Georgie2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Georgie2;
+			};
+			name = Debug;
+		};
+		F89E604922602016007D83BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEH288UCB4;
+				INFOPLIST_FILE = Georgie2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CornellTech.Georgie2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Georgie2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89E601422602014007D83BE /* Build configuration list for PBXProject "Georgie2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89E603F22602016007D83BE /* Debug */,
+				F89E604022602016007D83BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89E604122602016007D83BE /* Build configuration list for PBXNativeTarget "Georgie2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89E604222602016007D83BE /* Debug */,
+				F89E604322602016007D83BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89E604422602016007D83BE /* Build configuration list for PBXNativeTarget "Georgie2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89E604522602016007D83BE /* Debug */,
+				F89E604622602016007D83BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89E604722602016007D83BE /* Build configuration list for PBXNativeTarget "Georgie2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89E604822602016007D83BE /* Debug */,
+				F89E604922602016007D83BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F89E601122602014007D83BE /* Project object */;
+}
